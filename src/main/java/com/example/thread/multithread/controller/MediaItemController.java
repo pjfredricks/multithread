@@ -1,6 +1,5 @@
 package com.example.thread.multithread.controller;
 
-import com.example.thread.multithread.models.MediaItem;
 import com.example.thread.multithread.service.MediaItemService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -10,11 +9,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.multipart.MultipartFile;
 
-import java.sql.Timestamp;
 import java.util.Date;
-import java.util.List;
 
 @Api
 @RestController
